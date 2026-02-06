@@ -19,7 +19,7 @@ function App() {
 
     try {
       const response = await fetch(
-        "`${process.env.REACT_APP_API_URL}/upload-financials`",
+        `${process.env.REACT_APP_API_URL}/upload-financials`,
         {
           method: "POST",
           body: formData,
